@@ -2,8 +2,6 @@ library(readr)
 library(dplyr)
 library(lubridate)
 library(ggplot2)
-library(tidyr)
-
 
 # Read dataset
 cleveland <- read_file('https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/cleveland.data')
